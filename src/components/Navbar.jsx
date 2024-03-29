@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-slate-800 text-white">
+    <nav className="bg-slate-800 text-white w-full">
       <div className="mycontainer flex justify-between items-center px-4 py-5 h-14">
         <div className="flex items-center logo font-bold text-2xl">
           <span className="text-green-500">&lt;</span>
@@ -22,7 +22,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul> */}
-        <button className="bg-green-700 text-white flex justify-between items-center rounded-full my-5 mx-2 gap-2">
+        <button className="bg-green-700 text-white flex justify-between items-center rounded-full my-5 mx-2 gap-2 ring-white ring-1">
           <img
             className="w-8 p-1 rounded-full"
             src="/icons/git.png"
